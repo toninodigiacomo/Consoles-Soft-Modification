@@ -28,7 +28,7 @@ The PS3 will not recognize the default macOS "GUID" partition map. You must forc
 5. **Folder Structure:**
    - Create a folder named `PS3` in the root of the drive.
    - Inside `PS3`, create a folder named `UPDATE`.
-   - Place your downloaded `PS3UPDAT.PUP` (Evilnat CEX | https://www.psx-place.com/threads/4-92-2-evilnat-w-cobra-v8-5-cex-pex-d-pex.39743/]) inside the `UPDATE` folder.
+   - Place your downloaded `PS3UPDAT.PUP` (Evilnat CEX)[https://www.psx-place.com/threads/4-92-2-evilnat-w-cobra-v8-5-cex-pex-d-pex.39743/] inside the `UPDATE` folder.
 
 ---
 
