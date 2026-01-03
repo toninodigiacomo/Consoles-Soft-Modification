@@ -8,10 +8,10 @@ This guide provides a comprehensive walkthrough to transform a retail PS3 into a
 ---
 
 ## 🛠 1. Prerequisites
-* **A CFW Compatible PS3:** All FAT models and most Slim models (20xx and 21xx series).
-* **USB Drive:** Formatted to FAT32 with MBR partition scheme.
-* **Computer:** Mac or PC.
-* **Internet Connection:** Required on the PS3 for the initial exploit.
+* **A CFW Compatible PS3** All FAT models and most Slim models (20xx and 21xx series).
+* **USB Drive** Formatted to FAT32 with MBR partition scheme.
+* **Computer** Mac or PC.
+* **Internet Connection** Required on the PS3 for the initial exploit.
 
 ---
 
@@ -22,9 +22,9 @@ The PS3 will not recognize the default macOS "GUID" partition map. You must forc
 2. Go to **View** > **Show All Devices**.
 3. Select the **Root Drive** of your USB (the hardware name).
 4. Click **Erase** with these exact settings:
-   - **Name:** `PS3`
-   - **Format:** `MS-DOS (FAT)`
-   - **Scheme:** `Master Boot Record (MBR)`
+   - **Name** `PS3`
+   - **Format** `MS-DOS (FAT)`
+   - **Scheme** `Master Boot Record (MBR)`
 5. **Folder Structure:**
    - Create a folder named `PS3` in the root of the drive.
    - Inside `PS3`, create a folder named `UPDATE`.
