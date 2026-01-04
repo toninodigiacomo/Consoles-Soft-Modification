@@ -8,7 +8,7 @@ This is my personal documentation for console modding, jailbreaking, and mainten
 
 | Platform | Project Status | Primary Exploit | Quick Link |
 | :--- | :--- | :--- | :--- |
-| **PlayStation 3** | ✅ Stable | CFW Evilnat 4.92.2 | [View Guide](./PS3_GUIDE.md) |
+| **PlayStation 3** | ✅ Stable | CFW Evilnat 4.92.2 | [View Guide](./PlayStation 3/README.md) |
 | **Game Management** | 📂 Ongoing | webMAN / ISO | [View Guide](./GAMES_GUIDE.md) |
 | **[Console 2]** | ⏳ Planned | TBD | [Coming Soon](#) |
 
@@ -23,7 +23,7 @@ Essential tools used across multiple platforms:
 ---
 
 ## 📜 Repository Structure
-* `/PS3/` : Firmware files, tools, and specific assets for PlayStation 3.
+* `/PlayStation 3/` : Firmware files, tools, and specific assets for PlayStation 3.
 * `/Guides/` : Detailed Markdown instructions (linked in the table above).
 * `/Backups/` : Scripts and configuration files (e.g., `webman_settings.xml`).
 
