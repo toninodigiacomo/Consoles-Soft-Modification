@@ -6,7 +6,7 @@ This guide covers how to transfer backups to the PS3 and launch them directly fr
 
 ## 📂 1. Understanding Game Formats
 
-| Format | Storage Path | Description |
+| **Format** | **Storage Path** | **Description** |
 | :--- | :--- | :--- |
 | **JB Folder** | `/GAMES/` | A folder containing a `PS3_GAME` subfolder. Best for FAT32 compatibility. |
 | **ISO File** | `/PS3ISO/` | A single disc image file. Recommended for performance and bypassing 4GB limits. |
