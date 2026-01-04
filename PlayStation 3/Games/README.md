@@ -35,7 +35,7 @@ This guide covers how to transfer backups to the PS3 and launch them directly fr
 To avoid opening multiMAN every time, use **webMAN Mod**.
 
 ### Installation
-1. Install the `[webMAN_Mod.pkg](https://github.com/aldostools/webman-mod/releases)`.
+1. Install the [webMAN_Mod.pkg](https://github.com/aldostools/webman-mod/releases).
 2. Launch the installer from the XMB for a full installation.
 3. The console will reboot.
 
