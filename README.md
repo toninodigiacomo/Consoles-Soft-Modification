@@ -8,7 +8,7 @@ This is my personal documentation for console modding, jailbreaking, and mainten
 
 | Platform | Project Status | Primary Exploit | Quick Link |
 | :--- | :--- | :--- | :--- |
-| **PlayStation 3** | ✅ Stable | CFW Evilnat 4.92.2 | [View Guide]([./PlayStation%203/README.md)) |
+| **PlayStation 3** | ✅ Stable | CFW Evilnat 4.92.2 | [View Guide](./PlayStation%203/README.md) |
 | **[Console 2]** | ⏳ Planned | TBD | [Coming Soon](#) |
 
 ---
