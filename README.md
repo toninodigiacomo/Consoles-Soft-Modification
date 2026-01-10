@@ -21,12 +21,6 @@ Essential tools used across multiple platforms:
 
 ---
 
-## 📜 Repository Structure
-* `/PlayStation 3/` : Firmware files, tools, and specific assets for PlayStation 3.
-* `/Guides/` : Detailed Markdown instructions (linked in the table above).
-* `/Backups/` : Scripts and configuration files (e.g., `webman_settings.xml`).
-
----
 
 ## ⚠️ Important Safety Reminders
 1. **Always Dump Your NAND/NOR/Flash** before any major modification.
