@@ -88,9 +88,9 @@ FreeMcBoot can be configured to launch OPL automatically as soon as the console 
 #### Procedure on the PS2
 - Turn on the PS2 and launch the **FreeMcBoot Configurator** application (found in your current menu).
 - Choose the controller type (usually X or O).
-- Select “Configure E1 launch keys...”.
+- Select **Configure E1 launch keys...**.
 - Look for the “Auto” line:
-  - Press X (or O) on “Auto”.
+  - Press **X** (or O) on “Auto”.
   - Browse through the folders: mc0:/ (Slot 1) or mc1:/ (Slot 2) -> BOOT/ -> look for OPNPS2LD.ELF (the OPL file name).
   - Once selected, press **Return**.
 - **Crucial step** Select **Save CNF to MC0** (or MC1 depending on your cathe configuration) to save the settings.
