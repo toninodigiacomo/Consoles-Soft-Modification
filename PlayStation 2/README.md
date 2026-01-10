@@ -1,5 +1,5 @@
 # PS2 Ultimate HDD Manager
-Repository dedicated to preparing and managing an internal hard drive for PlayStation 2 “Fat” directly from a Mac. This project includes compiled tools, installation guides, and optimized scripts for fast game injection.
+Repository dedicated to preparing and managing an internal hard drive for PlayStation 2 **Fat** directly from a Mac. This project includes compiled tools, installation guides, and optimized scripts for fast game injection.
 
 > [!CAUTION]
 > **WARNING:** Jailbreaking the console carries risks. Follow every step precisely.
