@@ -28,5 +28,9 @@ _(Replace X with your actual disk number, e.g., /dev/disk11)._
 
 ## 🔍 3. Compatibility Check (PS3 Toolset)
 * **Physical Fit** Ensure the drive slides smoothly into the Network Adapter. Some 2.5" SSDs may require a 3D-printed bracket.
-* **System Dialog** If macOS shows "The disk you inserted was not readable," **click Ignore**. `#FF0000` Never initialize or partition the drive using macOS Disk Utility.
+* **System Dialog** If macOS shows "The disk you inserted was not readable," **click Ignore**.
+> [!CAUTION]
+> **WARNING:** Never initialize or partition the drive using macOS Disk Utility.
 * **Power Supply** If using a 3.5" mechanical HDD, ensure your USB-SATA adapter has an external power brick. USB ports alone often lack the amperage to spin up these drives.
+
+
