@@ -85,7 +85,7 @@ With FMCB on the Memory Card, shortcut keys can be configured (held during boot)
 #### The “Auto-Boot” method (the cleanest)
 FreeMcBoot can be configured to launch OPL automatically as soon as the console is turned on, without going through the standard PS2 menu.
 
-**Procedure on the PS2**
+#### Procedure on the PS2
 - Turn on the PS2 and launch the **FreeMcBoot Configurator** application (found in your current menu).
 - Choose your controller type (usually X or O).
 - Select “Configure E1 launch keys...”.
