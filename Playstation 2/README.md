@@ -33,4 +33,20 @@ _(Replace X with your actual disk number, e.g., /dev/disk11)._
 * **System Dialog** If macOS shows "The disk you inserted was not readable," **click Ignore**.
 * **Power Supply** If using a 3.5" mechanical HDD, ensure USB-SATA adapter has an external power brick. USB ports alone often lack the amperage to spin up these drives.
 
+---
 
+## ⚙️ Processus (Installation Workflow)
+
+1. **Identify your drive** ```diskutil list```. Let's assume your drive is _/dev/disk11_.
+2. **Initial Wipe** To avoid GPT/MBR partition conflicts, erase the first sectors of the drive:
+```
+sudo dd if=/dev/zero of=/dev/rdisk11 bs=1m count=10
+```
+3. **Connection Test** Verify if the tool can communicate with the drive:
+```
+sudo ./hdl_dump toc /dev/diskX
+```
+If it returns a list or a blank table without errors, the disk is ready.
+
+> [!NOTE]
+> Note on rdisk vs disk: Always use /dev/rdiskX for commands like dd. It bypasses the macOS filesystem buffer, speeding up the transfer of large images (like FHDB or ISOs).
