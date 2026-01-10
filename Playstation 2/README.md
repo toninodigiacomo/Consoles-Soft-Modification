@@ -37,7 +37,7 @@ _(Replace X with your actual disk number, e.g., /dev/disk11)._
 
 ## ⚙️ Processus (Installation Workflow)
 
-1. **Identify your drive** ```diskutil list```. Let's assume your drive is _/dev/disk11_.
+1. **Identify the drive** ```diskutil list```. Let's assume your drive is _/dev/disk11_.
 2. **Initial Wipe** To avoid GPT/MBR partition conflicts, erase the first sectors of the drive:
 ```
 sudo dd if=/dev/zero of=/dev/rdisk11 bs=1m count=10
