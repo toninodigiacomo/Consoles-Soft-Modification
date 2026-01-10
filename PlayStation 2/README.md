@@ -8,7 +8,7 @@ Repository dedicated to preparing and managing an internal hard drive for PlaySt
 
 ## 🛠 1. Prerequisites
 * **PS2 "Fat" Console** Models SCPH-3xxxx or SCPH-5xxxx.
-* **Network Adapter** Official Sony adapter (SATA modded) or [3rd party BitFunx/Gamestar SATA adapters](https://de.aliexpress.com/item/1005006515637393.html?spm=a2g0o.productlist.main.13.65cd1c12mNNyuz&algo_pvid=3f661783-699b-47c8-b6c0-0c5bbce1d808&algo_exp_id=3f661783-699b-47c8-b6c0-0c5bbce1d808-12&pdp_ext_f=%7B%22order%22%3A%226%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CHF%215.79%215.79%21%21%2149.53%2149.53%21%40211b876717680536560922663edf76%2112000037494323844%21sea%21CH%21173941914%21X%211%210%21n_tag%3A-29919%3Bd%3A74a134e%3Bm03_new_user%3A-29895&curPageLogUid=NZQ4WbRNdJcD&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006515637393%7C_p_origin_prod%3A).
+* **Network Adapter** Official Sony adapter (SATA modded) or [3rd party SATA adapters](https://de.aliexpress.com/item/1005006515637393.html?spm=a2g0o.productlist.main.13.65cd1c12mNNyuz&algo_pvid=3f661783-699b-47c8-b6c0-0c5bbce1d808&algo_exp_id=3f661783-699b-47c8-b6c0-0c5bbce1d808-12&pdp_ext_f=%7B%22order%22%3A%226%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CHF%215.79%215.79%21%21%2149.53%2149.53%21%40211b876717680536560922663edf76%2112000037494323844%21sea%21CH%21173941914%21X%211%210%21n_tag%3A-29919%3Bd%3A74a134e%3Bm03_new_user%3A-29895&curPageLogUid=NZQ4WbRNdJcD&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006515637393%7C_p_origin_prod%3A).
 * **Storage** SATA HDD or SSD (Up to 2TB recommended).
 * **USB to SATA Adapter** To connect the drive to your Mac.
 
