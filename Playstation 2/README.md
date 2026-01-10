@@ -78,9 +78,9 @@ sudo ./hdl_dump toc /dev/rdiskX
 ## 🏠 6. Recommended Homebrew
 
 With FMCB on the Memory Card, shortcut keys can be configured (held during boot):
-- L1: Launch Open PS2 Loader (OPL) from the HDD.
-- R1: Launch wLaunchELF (File Manager).
-- Select: Access FMCB Configurator.
+* **L1** Launch Open PS2 Loader (OPL) from the HDD.
+* **R1** Launch wLaunchELF (File Manager).
+* **Select** Access FMCB Configurator.
 
 #### The “Auto-Boot” method (the cleanest)
 FreeMcBoot can be configured to launch OPL automatically as soon as the console is turned on, without going through the standard PS2 menu.
