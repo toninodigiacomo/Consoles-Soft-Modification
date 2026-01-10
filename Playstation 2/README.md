@@ -77,7 +77,7 @@ sudo ./hdl_dump toc /dev/rdiskX
 
 ## 🏠 6. Recommended Homebrew
 
-With FMCB on your Memory Card, shortcut keys can be configured (held during boot):
+With FMCB on the Memory Card, shortcut keys can be configured (held during boot):
 - L1: Launch Open PS2 Loader (OPL) from the HDD.
 - R1: Launch wLaunchELF (File Manager).
 - Select: Access FMCB Configurator.
