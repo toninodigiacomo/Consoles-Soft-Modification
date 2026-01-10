@@ -1,4 +1,4 @@
-# 🎮 My Console Soft-Modding Library
+# My Console Soft-Modding Library
 
 This is my personal documentation for console modding, jailbreaking, and maintenance. This repository serves as a centralized "knowledge base" to keep track of custom firmwares, tools, and procedures used for my collection.
 
@@ -8,7 +8,7 @@ This is my personal documentation for console modding, jailbreaking, and mainten
 
 | Platform | Project Status | Primary Exploit | Quick Link |
 | :--- | :--- | :--- | :--- |
-| **PlayStation 3** | ✅ Stable | CFW Evilnat 4.92.2 | [View Guide](./PlayStation%203/README.md) |
+| **PlayStation 3** | ✅ Stable | CFW Evilnat 4.92.2 | [View Guide](./PlayStation%203) |
 | **[Console 2]** | ⏳ Planned | TBD | [Coming Soon](#) |
 
 ---
