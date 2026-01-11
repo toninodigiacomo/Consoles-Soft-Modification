@@ -64,8 +64,13 @@ Only work if already  access to a modded PS2 :
 * Launch wLaunchELF on the PS2 and run the FMCBInstaller.elf.
 * Select Format MC, then Multi-Install (this allows the card to work on any PS2 model).
 
-#### Method 2: The "FreeMcBoot Card" shortcut
+#### Method 2: The "FreeMcBoot Card" shortcut (the cleanest)
 The easiest way for macOS users is often to buy a pre-installed FMCB card (widely available) and then use the Mac strictly for HDD game management.
+1. Copy the content of the **FMCB-1966.7z** compressed file to an USB stick.
+2. Inert the stick on the PS2 and boot with the **FreeMcBoot Card** on Slot 0 and the Normal Memory Card on Slot 1.
+3. Format MC Slot 1.
+4. With **uLaunchElf** navigate to **mass** (USB stick) and lauch the installer.
+5. Install **FreeMcBoot** on the MC Slot 1.
 
 #### HDD Preparation for FMCB/OPL
 Since you are **not** booting from the HDD, it's only needed to flash an .img file. The drive needs to be initialized for Open PS2 Loader (OPL).
