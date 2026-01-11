@@ -5,7 +5,7 @@ This guide explains how to use the provided scripts to scan the ISO collection a
 * **Internal HDD** Must be initialized by the PS2.
 * **Target Files** ISO files (DVD) or BIN/CUE files (CD).
 * **Tools** hdl_dump (AKuHAK version) compiled for macOS.
-> [! NOTE]
+> [!NOTE]
 > Scripts: scan_ps2_turbo.sh and mass_inject_pro.sh (included in this repo).
 
 ---
