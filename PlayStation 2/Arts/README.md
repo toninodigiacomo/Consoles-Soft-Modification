@@ -14,7 +14,7 @@ Examples:
 
 To ensure OPL doesn't crash or slow down, images must follow these rules:
 | Type | Target Folder | Suggested Resolution | Format |
-+---+---+---+---+
+| :--- | :--- | :--- | :--- |
 | Front Cover	| ART | 140x200 px (280x400 max.) | .jpg (preferred) or .png |
 | Disc Icon	ART	| 64x64 px | .png (transparency supported) |
 
