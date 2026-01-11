@@ -10,7 +10,7 @@ Examples:
 
 ---
 
-# 📐 Image Specifications
+## 📐 1. Image Specifications
 
 To ensure OPL doesn't crash or slow down, images must follow these rules:
 | Type | Target Folder | Suggested Resolution | Format |
@@ -18,60 +18,29 @@ To ensure OPL doesn't crash or slow down, images must follow these rules:
 | Front Cover	| ART | 140x200 px (280x400 max.) | .jpg (preferred) or .png |
 | Disc Icon	ART	| 64x64 px | .png (transparency supported) |
 
+---
 
-📂 Transfer Method (USB) - Easiest
+## 📂 2. 💾 Transfer Method (HDD Internal)
 
-Even if your games are on the Internal HDD, OPL can read the Art from a USB stick.
+To store Art directly on the HDD, they must be copied to the +OPL partition.
 
-    Format a USB stick to FAT32 (MBR partition map).
+1. Copy ART folder to a USB stick.
+2. On the PS2, launch wLaunchELF.
+3. Go to FileBrowser > mass:/ (your USB).
+4. Mark files/folder and press R1 > Copy.
+5. Navigate to pfs0:/ (This is the Internal HDD partition mount).
+6. Go into the ART folder on the HDD and press R1 > Paste.
 
-    Create a folder named ART at the root of the USB stick.
+---
 
-    Copy your renamed images (e.g., SLES_xxx.xx_COV.jpg) into that folder.
-
-    Plug the USB into the PS2, launch OPL, and go to Settings:
-
-        Set Enable Art to On.
-
-        Set USB Device Start Mode to Auto.
-
-💾 Transfer Method (HDD Internal)
-
-To store Art directly on the HDD, you must copy them to the +OPL partition.
-
-    Copy your ART folder to a USB stick.
-
-    On the PS2, launch wLaunchELF.
-
-    Go to FileBrowser > mass:/ (your USB).
-
-    Mark your files/folder and press R1 > Copy.
-
-    Navigate to pfs0:/ (This is the Internal HDD partition mount).
-
-        Note: You may need to enter the HDD0 menu and mount the +OPL partition first.
-
-    Go into the ART folder on the HDD and press R1 > Paste.
-
-🏆 Pro Tips for macOS Users
-1. Delete .DS_Store files
-
-macOS creates hidden files that can confuse OPL. Before unplugging your USB stick, run this in Terminal:
-Bash
-
-# Clean hidden macOS files from your USB
+## 🏆 Pro Tips for macOS Users
+**Delete .DS_Store files**
+- macOS creates hidden files that can confuse OPL. Before unplugging your USB stick, run this in Terminal:
+```
 dot_clean -m /Volumes/YOUR_USB_NAME
-
-2. Batch Renaming
-
-If you have many covers, use the macOS Finder's built-in rename tool:
-
-    Select all files.
-
-    Right-click > Rename.
-
-    Use "Add Text" to append _COV to all filenames.
-
-3. Automated Downloader
-
-Consider using "OPL Manager" (via Wine/Crossover) or a dedicated scraper tool to download all covers automatically based on your ps2_games_list.csv.
+```
+- Batch Renaming
+  - For many covers, use the macOS Finder's built-in rename tool:
+    - Select all files.
+    - Right-click > Rename.
+    - Use "Add Text" to append _COV to all filenames.
