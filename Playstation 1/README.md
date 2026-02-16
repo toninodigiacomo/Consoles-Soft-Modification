@@ -11,7 +11,7 @@ This repository documents my process of modding a **PlayStation 1 (SCPH-7502)** 
 * **Support Console** PS2 with FreeMcBoot (used to flash the PS1 memory card).
 * **Memory Cards** 1x Original PS1 Memory Card (for the exploit). 1x Standard PS1 Memory Card (for game saves).
 * **Memory Card Annihilator (MCA)** [Releases (github) Memory Card Annihilator](https://github.com/ffgriever-pl/Memory-Card-Annihilator/releases)
-* **[Unirom](https://consolemods.org/wiki/PS1:Unirom)** [Releases (github) FreePSXBoot](https://github.com/brad-lin/FreePSXBoot/releases)
+* **Unirom** [Releases (github) FreePSXBoot](https://github.com/brad-lin/FreePSXBoot/releases) (information about [Unirom](https://consolemods.org/wiki/PS1:Unirom))
 ---
 ## 💾 2. Preparation
 Since the **MC2 (Slot 2)** version of FreePSXBoot is choosed, the exploit card in Slot 2 can remain and save card can stay in Slot 1. This is the most convenient setup.
