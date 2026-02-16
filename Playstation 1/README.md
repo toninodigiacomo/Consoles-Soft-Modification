@@ -22,7 +22,7 @@ Since the **MC2 (Slot 2)** version of FreePSXBoot is choosed, the exploit card i
 
 ## 🚀 3. Flashing the Card
 The **PS2 with FreeMcBoot** is used to write the image.
-> **Tool** Memory Card Annihilator (MCA) or Unirom Boot Disc.
+* **Tool** Memory Card Annihilator (MCA) or Unirom Boot Disc.
 * **Issue Encountered** The PS2 may freeze when inserting a previously "cracked" card. Thus, the MC must be ***formated*** with a PS1 running the Unirom.
 * **System Dialog** If macOS shows "The disk you inserted was not readable," **click Ignore**.
 * **Power Supply** If using a 3.5" mechanical HDD, ensure USB-SATA adapter has an external power brick. USB ports alone often lack the amperage to spin up these drives.
@@ -54,3 +54,25 @@ This is the most reliable method if the memory card is already ___corrupted___ b
 5. Insert the backup disc and enjoy!
 
 ---
+
+## 💿 5. How to Burn Backups (Preserving the Laser)
+The laser lens in the SCPH-7502 is aging. To minimize strain on the optical block and prevent "skipping" or premature failure, follow these golden rules for burning backups.
+
+### 1. High-Quality Media
+Avoid "no-name" or budget CD-Rs. Cheap discs have low reflectivity, forcing the laser to increase its intensity.
+* **Recommended** Verbatim DataLifePlus (AZO technology) is the gold standard for retro consoles.
+* **Type** Use **CD-R** only. Never use CD-RW (rewritable), as they will not work and can damage the lens.
+
+### 2. Software & Format
+* **Software (Mac)** Use **Burn** ((https://burn-osx.sourceforge.io/)), and the copy tab.
+* **Files** Always load the **.cue** file, not the .bin. The .cue contains the track metadata necessary for proper PS1 audio/data sync.
+
+### 3. The "Burning Speed" Myth
+There is a common misconception that a CD must be burned at 1x speed. 
+* **The Reality** Modern burners and modern CD-Rs are designed to be written at higher speeds. Burning at 1x on a 52x burner often creates *more* errors (jitters).
+* **Best Practice** Aim for a "Medium-Low" speed. Usually **10x, 16x, or 24x** is the sweet spot for modern hardware. "Maximum" speed must be avoided at all costs.
+
+### 4. Maintenance Tips
+If backups struggle to boot:
+* **Cleaning** Gently clean the lens with a Q-tip and 90% (or higher) Isopropyl Alcohol.
+* **Disc Condition** Keep burned discs dust and scratch-free. A scratch on a CD-R is much harder for the laser to read than a scratch on a retail pressed disc.
