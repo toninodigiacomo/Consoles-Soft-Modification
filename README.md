@@ -8,6 +8,7 @@ This is my personal documentation for console modding, jailbreaking, and mainten
 
 | Platform | Project Status | Primary Exploit | Quick Link |
 | :--- | :--- | :--- | :--- |
+| **PlayStation 1** | ✅ Stable | Unirom (FreePSXBoot 2.1)  | [View Guide](./Playstation%201) |
 | **PlayStation 2** | ✅ Stable | FreeMcBoot 1.966 | [View Guide](./PlayStation%202) |
 | **PlayStation 3** | ✅ Stable | CFW Evilnat 4.92.2 | [View Guide](./PlayStation%203) |
 | **[Console 2]** | ⏳ Planned | TBD | [Coming Soon](#) |
@@ -21,7 +22,6 @@ Essential tools used across multiple platforms:
 * **Integrity** HashTab / WinMD5 (to verify PUP/ISO files).
 
 ---
-
 
 ## ⚠️ Important Safety Reminders
 1. **Always Dump Your NAND/NOR/Flash** before any major modification.
