@@ -12,6 +12,13 @@ This repository documents my process of modding a **PlayStation 1 (SCPH-7502)** 
 * **Memory Cards** 1x Original PS1 Memory Card (for the exploit). 1x Standard PS1 Memory Card (for game saves).
 * **Memory Card Annihilator (MCA)** [Releases (github) Memory Card Annihilator](https://github.com/ffgriever-pl/Memory-Card-Annihilator/releases)
 * **Unirom** [Releases (github) FreePSXBoot](https://github.com/brad-lin/FreePSXBoot/releases) (information about [Unirom](https://consolemods.org/wiki/PS1:Unirom))
+
+## ⚠️ Hardware Limitations & Compatibility
+It is important to note that the **SCPH-7502** model uses the **PU-22** motherboard revision. This brings specific compatibility constraints for hardware mods:
+* **XStation Incompatibility** Unlike the SCPH-5xxx or 700x (PU-18), the XStation ODE is **NOT compatible** with this model.
+* **Parallel Port Advantage** This is one of the last models to feature the Parallel I/O port at the back. This makes it compatible with the **PSIO** cartridge, which is currently the only plug-in hardware alternative to the laser for this specific revision.
+* **FreePSXBoot Advantage:** The 7502 is highly stable with the Memory Card exploit, making it the most cost-effective **softmod** available for this generation.
+
 ---
 ## 💾 2. Preparation
 Since the **MC2 (Slot 2)** version of FreePSXBoot is choosed, the exploit card in Slot 2 can remain and save card can stay in Slot 1. This is the most convenient setup.
@@ -71,6 +78,28 @@ Avoid "no-name" or budget CD-Rs. Cheap discs have low reflectivity, forcing the 
 There is a common misconception that a CD must be burned at 1x speed. 
 * **The Reality** Modern burners and modern CD-Rs are designed to be written at higher speeds. Burning at 1x on a 52x burner often creates *more* errors (jitters).
 * **Best Practice** Aim for a "Medium-Low" speed. Usually **10x, 16x, or 24x** is the sweet spot for modern hardware. "Maximum" speed must be avoided at all costs.
+
+---
+
+## 🔧 Optical Block Maintenance: Extending Laser Life
+
+To ensure your SCPH-7502 continues to read burned discs (CD-Rs) reliably, periodic mechanical maintenance is required. This reduces friction and allows the laser to move smoothly without drawing excess current.
+
+### 1. Cleaning the Lens
+* Use a high-quality Q-tip lightly dipped in **Isopropyl Alcohol (90% or higher)**.
+* Gently wipe the lens in a circular motion. 
+* Use the dry side of the Q-tip to remove any residue. Do not apply pressure.
+
+### 2. Lubricating the Rails
+The "sled" (the part that moves the laser) often struggles because the factory grease has dried up or collected dust.
+* **Clean first** Use a cloth to remove old, yellowish grease from the metal rails and plastic gears.
+* **Lubricate** Apply a tiny amount of **White Lithium Grease** or high-quality synthetic watch oil on the rails.
+* **Result:** This prevents the "skipping" often blamed on a weak laser when it is actually a mechanical resistance issue.
+
+### 3. Spindle Hub Check
+The black plastic hub that holds the CD often cracks or slips down.
+* If you hear a grinding noise, ensure the spindle is not rubbing against the console's plastic shell.
+* Replacing a worn spindle with a new one (readily available online) can instantly fix many "Disc Read Errors."
 
 ### 4. Maintenance Tips
 If backups struggle to boot:
